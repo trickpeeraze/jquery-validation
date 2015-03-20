@@ -10,7 +10,7 @@
 	if ( typeof define === "function" && define.amd ) {
 		define( ["jquery", "./jquery.validate"], factory );
 	} else if (typeof exports === 'object') {
-		module.exports = factory();
+		module.exports = factory;
 	} else {
 		factory( jQuery );
 	}
