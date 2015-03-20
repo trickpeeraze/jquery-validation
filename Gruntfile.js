@@ -26,7 +26,7 @@ umdStart = "(function( factory ) {\n" +
 	"\tif ( typeof define === \"function\" && define.amd ) {\n";
 
 umdMiddle = "\t} else if (typeof exports === 'object') {\n" +
-	"\t\tmodule.exports = factory();\n" +
+	"\t\tmodule.exports = factory;\n" +
 	"\t} else {\n" +
 	"\t\tfactory( jQuery );\n" +
 	"\t}\n" +
