@@ -28,6 +28,7 @@
 	},
 	"files": ["dist/localization/", "dist/additional-methods.js", "dist/jquery.validate.js"],
 	"main": "dist/jquery.validate.js",
+	"browser": "dist/jquery.validate.js",
 	"dependencies": {},
 	"devDependencies": {
 		"commitplease": "2.0.0",

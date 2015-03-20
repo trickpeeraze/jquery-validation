@@ -1,2 +1,4 @@
-dist
+dist/*
+!dist/additional-methods.js
+!dist/jquery.validate.js
 node_modules
